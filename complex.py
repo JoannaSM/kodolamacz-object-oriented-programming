@@ -20,7 +20,7 @@ class Complex:
         return Complex(re, im)
 
     @staticmethod
-    def quotient(nmb1, nmb2):
+    def multiplication(nmb1, nmb2):
         re = round(nmb1.re*nmb2.re - nmb1.im*nmb2.im, 2)
         im = round(nmb1.re*nmb2.im + nmb1.im*nmb2.re, 2)
         return Complex(re,im)
@@ -37,8 +37,8 @@ def main():
     sum = Complex.sum(number1, number2)
     print(f"suma: ({number1}) + ({number2}) = {sum}")
 
-    quotient = Complex.quotient(number1,number2)
-    print(f"iloczyn: ({number1}) * ({number2}) = {quotient}")
+    multiplication = Complex.multiplication(number1,number2)
+    print(f"iloczyn: ({number1}) * ({number2}) = {multiplication}")
 
 
 if __name__ == "__main__":
