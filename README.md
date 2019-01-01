@@ -1,4 +1,4 @@
-# kodolamacz-object-oriented-programming
+# kodolamacz.pl Object oriented programming
 kodołamacz.pl challenge #4
 
 ## quadratic_function.py
